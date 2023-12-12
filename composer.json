@@ -1,0 +1,25 @@
+{
+  "name": "dineabyte/sumup",
+  "type": "tastyigniter-extension",
+  "description": "No description provided yet...",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dineabyte"
+    }
+  ],
+  "extra": {
+    "tastyigniter-extension": {
+      "code": "dineabyte.sumup",
+      "name": "SumUp",
+      "icon": {
+        "class": "fa fa-plug",
+        "backgroundColor": "#000000",
+        "color": "#FFF"
+      }
+    }
+  },
+  "require": {
+    "sumup/sumup-ecom-php-sdk": "^1.1"
+  }
+}
